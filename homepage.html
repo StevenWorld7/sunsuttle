@@ -1,0 +1,342 @@
+<html>
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>THE SUN SHUTTLE</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+    <a href="#contact">CONTACT</a>
+   <a href="#booking">BOOK</a>
+    <a href="#mission">MISSION</a>
+   </nav>
+
+   <div class="header-container">
+    <img src="sun.jpeg" alt="Sun Shuttle" height="50" width="50">
+    <div>
+     <h4>THE SUN SHUTTLE</h4>
+     <h6>TRVEL AGENTS . MTHATHA</h6>
+    </div>
+    </div>
+    <div class="gallery">
+  <img src="car.jpeg" height="300" width="300">
+  <img src="cars.jpeg" height="300" width="300"><br>
+  <img src="car1.jpg" height="300" width="300">
+  <img src="car2.jpg" height="300" width="300">
+</div>
+
+    <section id="mission">
+        <div class="mission-box">
+            <span class="p2">OUR MISSION</span>
+            <p>
+                <span class="p1">"Will take You there, noba kanjani!"</span><br><br>
+                At Sun Shuttle, our mission is to provide exceptional transportation services that prioritize safety and comfort. Welcome to Sun Shuttle, your premier transportation service for seamless travel. Whether you're heading to the airport, exploring the city, or need a reliable shuttle for any occasion, we've got you covered. Our professional drivers and well-maintained vehicles ensure a safe and enjoyable journey. Book your shuttle now and experience the convenience of Sun Shuttle!
+            </p>
+        </div>
+    </section>
+
+
+<section id="booking">
+ <h2>BOOK YOUR SHUTTLE NOW!</h2>
+<form action="search.php" method="post">
+    <label for="fullname">FULL NAME:</label>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+    
+    <label for="phone">PHONE NUMBER:</label>
+    <input type="text" id="phone" name="phone" required><br><br>
+
+    <label for="email">EMAIL:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="Pdestination">PICK DESTINATION:</label>
+    <input type="text" id="destination" name="destination" required><br><br>
+    
+    <label for="date">DATE OF TRAVEL:</label>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="pTime">PICK TIME:</label>
+    <input type="time" id="pTime" name="pTime" required><br><br>
+
+    <label for="passengers">NUMBER OF PASSENGERS:</label>
+    <input type="number" id="passengers" name="passengers" required><br><br>
+
+    <label for="luggage">LUGGAGE:</label>
+    <input type="text" id="luggage" name="luggage" required><br><br>
+
+    <label for="specialR">SPECIAL REQUESTS:</label>
+    <input type="text" id="specialR" name="specialR" ><br><br>
+
+</form>
+    </section>
+
+    <input type="submit" value="BOOK NOW">
+
+    <footer id="contact">
+    <h2 style="color: #f1f1ef;">CONTACT US</h2>
+    <p><span class="contact-icon">&#9742;</span>
+   : 071 616 2931</p>
+    <p><span class="contact-icon">&#9993;</span> 
+        <a href="mailto:thesunshuttleservices@gmail.com"> thesunshuttleservices@gmail.com</a></p>
+    <p>
+        <i class='fas fa-laptop-house contact-icon'></i>
+    : KWA DOSI, MTHATHA, SOUTH AFRICA</p>   
+    <div class="social-media">
+
+    Follow us on social media:<br><br>
+   
+ <a href="https://www.facebook.com/search/top?q=sun%20shuttle%20travel%20agency" class="fa-brands fa-facebook"></a></span>
+    </div>
+    </footer>
+</body>
+   
+    <style>
+.fa-brands {
+  font-size: 24px;
+}
+.fa-facebook:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: rgb(212, 211, 211);
+
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+     border: 1px solid #333;
+}
+
+        html{
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(7, 6, 6, 0.404);
+            color: #e8e2e2;
+            line-height: 1.6;
+        }
+        .navbar {
+    background-color: #17121280;
+    overflow: hidden;
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+    border-bottom: 2px solid #cddb11;
+}
+
+.navbar a {
+    float: left;
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+    padding: 18px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #000000;
+    color: rgba(187, 190, 16, 0.573);
+}
+
+.navbar .active {
+    background-color: #9eada8;
+}
+
+      .header-container {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: #1a1a1a;
+      }
+ .header-container img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.4);
+    margin: 0px;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.header-text h4{
+    margin: 0px;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.header-text h6{
+    margin-top: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #a81919;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f1f0f0;
+    flex-wrap: wrap;
+}
+.gallery img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+section{
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+.mission-box {
+    background-color: #120e0e;
+    border-left: 8px solid #fdfdf8f5;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(217, 231, 29, 0.989);
+}
+.p1{
+    font-size: 24px;
+    color: #f4e7e7;
+    font-style:  italic;
+    
+
+}
+.p2{
+    font-size: 20px;
+    color: #e2eb37;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+   
+}
+
+/*.p3{
+    border: 5px solid #0a0a0a;
+    padding: 50px;
+    border-radius: 20px;
+    border-width: 5px;
+    color: rgb(241, 238, 238);
+    display: inline-block;
+    background-color: #131310;
+}*/
+     form {
+            background-color: #000000c4;
+            padding: 50px;
+            border-radius: 5px;
+            box-shadow: 0 10px 30px rgb(231, 231, 226);
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto; 
+            color: rgb(240, 231, 231);
+            border: 1px solid #333;
+           
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #cbcb4a;
+            font-size: 14px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="time"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            color: #333;
+             background-color: #222;
+             font-family: inherit;
+        }
+        input:focus {
+            border-color: #24f52b;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0 auto;
+             display: block;
+             font-size: 16px;
+             font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        body{
+            background-color: rgba(50, 25, 25, 0.404);
+
+        }
+        @keyframes animation {
+            0% { background-color: #2da122; }
+            50% { background-color: #e2f41b; }
+            100% { background-color: #c7e712; }
+            
+        }
+        input[type="submit"] {
+            animation: animation 2s infinite;
+        }
+    footer {
+        background-color: #0a0505;
+        color: #e8e2e2;
+        text-align: center;
+        padding: 500px 500px;
+        border-top: 30px solid #afa7a7;
+        
+    }
+    .contact-icon {
+        font-size: 20px;
+        margin-right: 10px;
+        color: #ebe8e0; }
+    footer p {
+        margin: 15px 0;
+        font-size: 16px;
+        color: #eff243;
+    }
+    footer a {
+        color: #dfca61;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+   .social-media {
+        margin-top: 30px;
+        padding: 15px;
+        background-color: #bb9b0d;
+        border-radius: 30px;
+        display: inline-block;
+        border: 1px solid #333;
+    }
+    </style>
+
+</body>
+</html>
